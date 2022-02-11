@@ -32,7 +32,7 @@ export default function App() {
 
   return (
     <div className="App">
-      <button onClick={onClickFetchUser}>データ取得</button>
+      <button onClick={onClickFetchUser}>データ取得!</button>
       <br />
       {error ? (
         <p style={{ color: "red" }}>データの取得に失敗しました</p>
